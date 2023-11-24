@@ -27,6 +27,7 @@ namespace _4
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+           
             if (!int.TryParse(NumberV.Text, out int r))
             {
                 MessageBox.Show("Введите A");
